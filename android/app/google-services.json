@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755303666414",
+    "project_id": "proyecto-adso-25-6153c",
+    "storage_bucket": "proyecto-adso-25-6153c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755303666414:android:f5e913ededaa513f2659ff",
+        "android_client_info": {
+          "package_name": "com.example.mi_proyecto_guia4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUTdXYh3YjZCsqkMEyzET1kLEBPoxjoCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
