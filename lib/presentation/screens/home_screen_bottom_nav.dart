@@ -58,7 +58,7 @@ class _HomeScreenBottomNavState extends State<HomeScreenBottomNav> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Gestión de Ambientes SENA"),
+        title: const Text("Gestión de Ambientes SENA Modificado"),
         actions: const [
           //Boton Cerrar Sesión
           CerrarSesionButton(),
