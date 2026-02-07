@@ -58,7 +58,7 @@ class _HomeScreenBottomNavState extends State<HomeScreenBottomNav> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Gestión de Ambientes SENA Modificado"),
+        title: const Text("Gestión de Ambientes SENA"),
         actions: const [
           //Boton Cerrar Sesión
           CerrarSesionButton(),
@@ -83,19 +83,19 @@ class _HomeScreenBottomNavState extends State<HomeScreenBottomNav> {
           //Botones del menu
           BottomNavigationBarItem(
             icon: Icon(Icons.meeting_room),
-            label: "Ambientes",
+            label: "Ambientes de Formación",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: "Instructores",
+            label: "Instructores Sena.",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.inventory),
-            label: "Elementos",
+            label: "Elementos Fisicos",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.assignment_ind),
-            label: "Cuentadantes",
+            label: "Cuentadantes Sena",
           ),
         ],
       ),
