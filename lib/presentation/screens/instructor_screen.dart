@@ -11,7 +11,7 @@ class InstructorScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Instructores')),
+      appBar: AppBar(title: Text('Instructores Sena')),
       body: BlocBuilder<InstructorBloc, InstructorState>(
         builder: (context, state) {
           if (state is InstructorLoading) {
@@ -41,7 +41,7 @@ class InstructorScreen extends StatelessWidget {
           } else if (state is InstructorError) {
             return Center(child: Text('Error: ${state.message}'));
           }
-          return const Center(child: Text('No hay Datos'));
+          return const Center(child: Text('No hay Datos de Instructores'));
         },
       ),
       floatingActionButton: FloatingActionButton(
@@ -77,11 +77,15 @@ class InstructorScreen extends StatelessWidget {
           children: [
             TextField(
               controller: nombreCompletoController,
-              decoration: const InputDecoration(labelText: 'Nombre Instructor'),
+              decoration: const InputDecoration(
+                labelText: 'Nombre Del Instructor',
+              ),
             ),
             TextField(
               controller: areaController,
-              decoration: const InputDecoration(labelText: 'Area Instructor'),
+              decoration: const InputDecoration(
+                labelText: 'Area Del Instructor',
+              ),
             ),
             TextField(
               controller: celularController,
